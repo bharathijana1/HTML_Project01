@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    background-color: rgba(255, 166, 0, 0.459);
+    margin: 15px;
+}
+#img{
+    color: rgb(197, 57, 1);
+    margin: 20px;
+    padding: 20px;
+    margin-left: 40%;
+}
+body{
+    background-color: rgba(211, 166, 51, 0.329);
+}
+.list{
+    background-color: rgba(189, 162, 12, 0.5);
+    width: 180px;
+    height: 120px;
+    padding: 50px;
+    color: black;
+    margin: 15px;
+
+}
+#search{
+    height: 35px;
+    width: 25rem;
+    background-color: rgba(180, 176, 176, 0.295);
+}
+#shopbtn{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 60px;
+    width: 170px;
+    background-color: rgba(175, 99, 134, 0.603);
+}
+
