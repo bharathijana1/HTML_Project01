@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreshCart</title>
     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="logo">
-    <h1><img src="/img/logo.png" alt="logo" width="100px" height="100px"><b>FreshCart</b></h1>
+    <style>
+        .heading2{
+        color: red;
+        padding: 20px;
+        margin: 20px;
+}
+    </style>
     
-    <center>
-        <input type="search" value="search for product">
-    </center>
+    <div id="logo">
+    <h1 id="img">
+        <img src="/img/logo.png" alt="logo" width="100px" height="100px"><b>FreshCart</b></h1>
     </div>
-    <ul>
+    <center>
+        <input type="search" value="search for product" id="search">
+    </center>
+  
+    <ul class="list">
         <h2><b><li><a href="index.html">Home</a></li></b></h3>
         <h2><b><li><a href="login.html">Login</a></li></b></h3>
         <h2><b><li><a href="signup.html">Signup</a></li></b></h3>
@@ -23,16 +33,16 @@
     </ul>
     <center>
     <section>
-        <b><h1>Super Market Daily Fresh Grocery</h1></b>
+        <b><h1 class="heading1" style="color: red; margin: 20px;margin: 2rem;">Super Market Daily Fresh Grocery</h1></b>
     </section>
     <aside>
         <img src="/img/main.webp" alt="indeximg">
         <p></p>
     </aside>
     <article>
-        <h2>Introduced a new model for online Grocery shopping <br> and convenient home delivery</h2>
+        <h2 class="heading2">Introduced a new model for online Grocery shopping <br> and convenient home delivery</h2>
     </article>
-    <button><h1><a href="shop.html">shop Now</a></h1></button>
+    <button id="shopbtn"><h1><a href="shop.html">shop Now</a></h1></button>
  </center>
     
 </body>
