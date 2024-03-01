@@ -3,20 +3,28 @@
     margin: 0px;
 }
 #logo{
-    background-color: rgba(255, 166, 0, 0.459);
-    margin: 15px;
+    background-color: rgba(91, 167, 218, 0.5);
+    color: rgb(247, 24, 98);
+
 }
 #img{
-    color: rgb(197, 57, 1);
-    margin: 20px;
-    padding: 20px;
-    margin-left: 40%;
+    margin: 5px;
+    padding: 10px;
+    padding-right: 20px;
+}
+#freshcart{
+    position: absolute;
+    margin-left: 150px;
+    top: 65px;
+
 }
 body{
-    background-color: rgba(211, 166, 51, 0.329);
+    background-image: url(img/img10.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .list{
-    background-color: rgba(189, 162, 12, 0.5);
+    background-color: rgba(72, 143, 190, 0.267);
     width: 180px;
     height: 120px;
     padding: 50px;
@@ -25,9 +33,11 @@ body{
 
 }
 #search{
-    height: 35px;
-    width: 25rem;
-    background-color: rgba(180, 176, 176, 0.295);
+    height: 40px;
+    width: 28rem;
+    background-color: rgba(212, 212, 212, 0.295);
+    text-align: center;
+    margin-top: 40px;
 }
 #shopbtn{
     padding: 10px;
@@ -35,5 +45,13 @@ body{
     margin-bottom: 60px;
     width: 170px;
     background-color: rgba(175, 99, 134, 0.603);
+    color: white;
 }
 
+#fresh{
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 170px;
+    color: rgb(247, 24, 98);
+
+}
