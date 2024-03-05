@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(img/img10.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    text-align: center;
+}
+.label{
+    padding: 10px;
+    margin: 7px;
+    width: 250px;
+    font-size: 20px;
+    text-align: left;
+}
+.input{
+    padding: 7px;
+    margin: 12px;
+    width: 250px;
+    font-size: 15px;
+}
+.btn{
+    width: 150px;
+    font-size: 25px;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgba(27, 108, 161, 0.61);
+
+}
+.heading{
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#logo{
+    font-size: 40px;
+    background-color: rgba(117, 183, 236, 0.568);
+
+}
+#freshcart{
+    position: absolute;
+    left: 30px;
+    margin-left: 120px;
+    top: 40px;
+    color: rgb(247, 24, 98);
+}
+.togosignuporlogin{
+    padding: 20px;
+    font-size: 20px;
+}
+.link{
+    font-size: 30px;
+    padding: 3px;
+    margin-bottom: 50px;
+
+}
+.dontaccount{
+    margin-bottom: 15px;
+}
+.backtohome{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 120px;
+    margin-top: 20px;
+
+}
+.backtohometext{
+    font-size: 25px;
+}
+#form{
+    text-align: center;
+}
+.alreadyaccount{
+    margin-bottom: 15px;
+}
