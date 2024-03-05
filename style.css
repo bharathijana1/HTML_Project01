@@ -2,14 +2,13 @@
     padding: 0px;
     margin: 0px;
 }
-#main{
+.main{
     background-color: rgba(117, 183, 236, 0.568);
     margin-bottom: 20px;
 }
 
-#logo{
+.logo{
     font-size: 50px;
-
 }
 #freshcart{
     position: absolute;
@@ -17,8 +16,6 @@
     margin-left: 120px;
     top: 30px;
     color: rgb(247, 24, 98);
-
-    
 }
 .list{
     display: flex;
@@ -91,9 +88,9 @@ body{
 
 #symbols{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
-    gap: 30px;
+    gap: 40px;
     margin: 30px;
     padding: 10px;
 
@@ -109,9 +106,9 @@ body{
     width: 40px;
 }
 #Categories{
-    color: rgb(247, 24, 98);
+    margin-top: 15px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .images{
     width: 200px;
@@ -140,4 +137,8 @@ body{
     padding-left: 10px;
     width: 50px;
     font-size: 30px;
+}
+#main{
+    background-color: rgba(117, 183, 236, 0.568);
+
 }
