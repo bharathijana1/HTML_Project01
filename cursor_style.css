@@ -1,3 +1,141 @@
-.demo1{
-    cursor: pointer;
+*{
+    padding: 0;
+    margin: 0;
 }
+body{
+    background-color: rgba(202, 231, 222, 0.199);
+}
+.cursordemo{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 30px;
+    width: 200px;
+
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#cursorexcersice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.demo1{
+    cursor: alias;
+}
+.demo2{
+    cursor: pointer;
+
+}
+.demo3{
+    cursor:all-scroll
+    
+}
+.demo4{
+    cursor: auto;
+    
+}
+.demo5{
+    cursor: cell;
+}
+.demo6{
+    cursor: col-resize;
+    
+}
+.demo7{
+    cursor: context-menu;
+}
+.demo8{
+    cursor: copy;
+    
+}
+.demo9{
+    cursor: crosshair;
+}
+.demo10{
+    cursor: default;
+}
+.demo11{
+    cursor: e-resize;
+}
+.demo12{
+    cursor: ew-resize;
+}
+.demo13{
+    cursor: grab;
+}
+.demo14{
+    cursor: grabbing;
+}
+.demo15{
+    cursor: help;
+}
+.demo16{
+    cursor: move;
+}
+.demo17{
+    cursor: n-resize;
+}
+.demo18{
+    cursor: ne-resize;
+}
+.demo19{
+    cursor: nesw-resize;
+}
+.demo20{
+    cursor: no-drop;
+}
+.demo21{
+    cursor: none;
+}
+.demo22{
+    cursor: not-allowed;
+}
+.demo23{
+    cursor: ns-resize;
+}
+.demo24{
+    cursor: nw-resize;
+}
+.demo25{
+    cursor: nwse-resize;
+}
+.demo26{
+    cursor: progress;
+}
+.demo27{
+    cursor: row-resize;
+}
+.demo28{
+    cursor: s-resize;
+}
+.demo29{
+    cursor: se-resize;
+}
+.demo30{
+    cursor: sw-resize;
+}
+.demo31{
+    cursor: text;
+    
+}
+.demo32{
+    cursor: vertical-text;
+}
+.demo33{
+    cursor: w-resize;
+}
+.demo34{
+    cursor: wait;
+}
+.demo35{
+    cursor: zoom-in;
+}
+.demo36{
+    cursor: zoom-out;
+}   
+
