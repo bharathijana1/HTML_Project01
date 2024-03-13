@@ -31,7 +31,6 @@
 }
 #list1:hover,#list2:hover,#list3:hover,#list4:hover{
     text-decoration: underline;
-    font-size: 26px;
 }
 .link{
     text-decoration: none;
@@ -90,10 +89,77 @@ body{
 #fresh{
     color: rgb(247, 24, 98);
     position: absolute;
-    margin-top: 11rem;
-    margin-left: 35rem;
+    margin-top: -10rem;
+    margin-left: 33rem;
     font-size: 3rem;
+    font-weight: bold;
+    animation-name: animationexample;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
+@keyframes animationexample{
+    from{
+        font-size: 3rem;
+    }
+    to{
+        font-size: 3.5rem;
+    }
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    animation-name: animationslide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* #animationimges{
+    width: 800px;
+    height: 500px;
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+} */
+@keyframes animationslide{
+    0%{
+        background-image: url("/img/shoppingimg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+    }
+    25%{
+        background-image: url("/img/shoppingimg3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+    }
+    50%{
+        background-image: url("/img/shoppingimg4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+    }
+    75%{
+        background-image: url("/img/shoppingimg5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+    }
+    100%{
+        background-image: url("/img/shoppingimg6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 800px;
+        height: 500px;
+    }
+}
+
 .heading1{
     padding: 10px;
     padding-bottom: 30px;
@@ -110,12 +176,11 @@ body{
 #indeximg{
     border-radius: 40px 5px;
     border: 1px solid rgba(35, 121, 233, 0.664);
-    opacity: 0.88;
+    opacity: 0.8;
     box-shadow: 2px 2px 10px blue;
     cursor: not-allowed;
 
 }
-
 
 
 /* shop page */
@@ -154,14 +219,15 @@ body{
     width: 200px;
     height: 200px;
     border: 1px solid rgba(48, 136, 170, 0.644);
+    border-radius: 10px;
+
 
 }
 #contentimg{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
     gap: 20px;
 }
 #back{
