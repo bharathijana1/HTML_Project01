@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+            .animationdemo1{
+                width: 200px;
+                height: 200px;
+                border: 2px solid red;
+                animation-name: demo;
+                animation-duration: 5s;
+                animation-iteration-count: 5;
+                margin-bottom: 100px;
+            }
+            @keyframes demo{
+                from{
+                    background-color: red;
+                }
+                to{
+                    background-color: brown;
+                }
+            }
+        .animationdemo2{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+            animation-name: demo2;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            margin-bottom: 200px;
+
+        }
+        @keyframes demo2{
+            0%{
+                background-color: rgb(46, 32, 172);
+                left: 100px;
+                top: 0px;
+            }
+            25%{
+                background-color: rgb(107, 196, 23);
+                top: 100px;
+                left: 100px;
+            }
+            75%{
+                background-color: rgb(97, 31, 11);
+                top: 100px;
+                left: 0px;
+            }
+            100%{
+                background-color: rgb(9, 119, 133);
+                left: 0px;
+                top: 0px;
+            }
+
+            
+
+        }
+        .animationdemo3{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            background-color: rgb(140, 0, 255);
+            animation-name: demo3;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            margin-bottom: 200px;
+            text-align: center;
+
+
+        }
+
+        @keyframes demo3{
+            from{
+                font-size: 20px;
+            }
+            to{
+                font-size: 40px;
+                color: rgb(46, 199, 15);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="animationdemo2">
+        
+    </div>
+    <div class="animationdemo1">
+
+    </div>
+    <div class="animationdemo3">
+        <div id="h1">
+            <h1>hello</h1>
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>
