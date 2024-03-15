@@ -69,7 +69,7 @@ body{
 }
 #shopbtn{
     margin: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-top: 20px;
     padding: 15px;
     background-color: rgba(27, 108, 161, 0.61);
@@ -106,57 +106,56 @@ body{
     }
 }
 .animation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px rgba(49, 49, 49, 0.863);
+    border: 1px solid rgba(95, 90, 90, 0.63);
     animation-name: animationslide;
-    animation-duration: 10s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
 }
 
-/* #animationimges{
-    width: 800px;
-    height: 500px;
-    border: 1px solid red;
-    padding: 20px;
-    margin: 20px;
-} */
 @keyframes animationslide{
     0%{
+        background-image: url("/img/shoppingimg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    25%{
         background-image: url("/img/shoppingimg2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 800px;
-        height: 500px;
-    }
-    25%{
-        background-image: url("/img/shoppingimg3.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 800px;
-        height: 500px;
+        width: 500px;
+        height: 350px;
     }
     50%{
+        background-image: url("/img/shoppingimg3.jpg");
+        background-repeat: no-repeat;
+        backgroud-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    75%{
         background-image: url("/img/shoppingimg4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 800px;
-        height: 500px;
+        width: 500px;
+        height: 350px;
     }
-    75%{
+    100%{
         background-image: url("/img/shoppingimg5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 800px;
-        height: 500px;
-    }
-    100%{
-        background-image: url("/img/shoppingimg6.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 800px;
-        height: 500px;
+        width: 500px;
+        height: 350px;
     }
 }
 
@@ -219,9 +218,13 @@ body{
     width: 200px;
     height: 200px;
     border: 1px solid rgba(48, 136, 170, 0.644);
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(85, 84, 84);
 
-
+}
+.images:hover{
+    opacity: 0.89;
+    border: 1px solid rgba(12, 12, 12, 0.774);
 }
 #contentimg{
     display: flex;
@@ -231,7 +234,7 @@ body{
     gap: 20px;
 }
 #back{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     height: 100px;
     display: flex;
     justify-content: flex-start;
@@ -252,3 +255,61 @@ body{
     background-color: rgba(117, 183, 236, 0.568);
 
 }
+.center_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+
+}
+.desing_image{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(48, 136, 170, 0.644);
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(85, 84, 84);
+}
+
+.desing_image:hover{
+    opacity: 0.89;
+    border: 1px solid rgba(12, 12, 12, 0.774);
+}
+.buy_btn{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    border: 2px solid rgba(48, 136, 170, 0.644);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.buy_btn:hover{
+    box-shadow: 1px 1px 10px rgb(85, 84, 84);
+
+
+}
+.buybutton{
+    text-align: center;
+}
+.description{
+    padding: 20px;
+    margin: 10px;
+}
+.desc_head{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.para{
+    font-size: 20px;
+    padding: 30px;
+    line-height: 35px;
+    
+}
+
